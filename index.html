@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo Frontend</title>
+</head>
+<body>
+
+  <h2>Login</h2>
+
+  <form method="POST" action="http://localhost:3000/login">
+    <input type="text" name="username" placeholder="Usuario"><br>
+    <input type="password" name="password" placeholder="Password"><br>
+    <button type="submit">Login</button>
+  </form>
+
+  <hr>
+
+  <h2>Saludo</h2>
+  <form method="GET" action="http://localhost:3000/saludo">
+    <input type="text" name="nombre" placeholder="Tu nombre">
+    <button type="submit">Saludar</button>
+  </form>
+
+  <hr>
+
+  <a href="http://localhost:3000/admin">Ir al panel admin</a>
+
+</body>
+</html>
